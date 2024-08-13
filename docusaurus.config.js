@@ -72,7 +72,7 @@ const config = {
           },
           {
             type: 'doc',
-            docId: 'guide/intro',
+            docId: 'guide/how-to-use',
             position: 'left',
             label: 'User Guide',
           },
