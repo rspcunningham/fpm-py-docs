@@ -1,2 +1,2 @@
-# fpm_py.*__init__*
+# __init__
 
