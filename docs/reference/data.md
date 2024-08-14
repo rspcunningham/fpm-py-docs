@@ -103,7 +103,7 @@ Load an ImageSeries object saved as a dictionary.
 - `path` (`str`): The path to load the object from
 
 #### Returns:
-- `None`: The loaded ImageSeries object
+- `ImageSeries`: The loaded ImageSeries object
 
 
 ### Instance method: to_dict
