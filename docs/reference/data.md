@@ -5,15 +5,17 @@ This module contains the ImageCapture and ImageSeries classes, which are the bas
 ### Function: get_device
 
 ```python
-def get_device
+def get_device():
+    ...
 ```
 
-No docstring provided.
+
 
 ## Class: ImageCapture
 
 ```python
-class ImageCapture
+class ImageCapture:
+    ...
 ```
 
 A single image capture with associated k-vector.
@@ -28,7 +30,8 @@ Raises:
 ## Class: ImageSeries
 
 ```python
-class ImageSeries
+class ImageSeries:
+    ...
 ```
 
 A series of images captured with the same optical magnification and pixel size.
@@ -42,64 +45,4 @@ Args:
 Raises:
     ValueError: If the images in the stack do not have the same shape
     ValueError: If effective_magnification is not provided and both optical_magnification and pixel_size are not provided
-
-### Function: __post_init__
-
-```python
-def __post_init__self
-```
-
-No docstring provided.
-
-### Function: __post_init__
-
-```python
-def __post_init__self
-```
-
-No docstring provided.
-
-### Function: save
-
-```python
-def saveself, path: str
-```
-
-Save the ImageSeries object to disk.
-
-Args:
-    path (str): The path to save the object to
-
-### Function: load
-
-```python
-def loadpath: str
-```
-
-Load an ImageSeries object from disk.
-
-Args:
-    path (str): The path to load the object from
-
-### Function: from_dict
-
-```python
-def from_dictpath: str
-```
-
-Load an ImageSeries object saved as a dictionary.
-
-Args:
-    path (str): The path to load the object from
-
-Returns:
-    ImageSeries: The loaded ImageSeries object
-
-### Function: to_dict
-
-```python
-def to_dictself
-```
-
-Convert the ImageSeries object to a dictionary.
 
