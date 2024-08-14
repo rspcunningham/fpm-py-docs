@@ -6,15 +6,11 @@
 DEBUG = False
 ```
 
-'Assign' can't have docstrings
-
 ### Type Alias: OptimizerType
 
 ```python
 OptimizerType = Callable[[torch.Tensor, torch.Tensor, torch.Tensor, torch.Tensor, int, int], tuple[torch.Tensor, torch.Tensor]]
 ```
-
-'Assign' can't have docstrings
 
 ### Function: quasi_second_order
 
