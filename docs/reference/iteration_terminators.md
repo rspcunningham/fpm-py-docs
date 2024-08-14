@@ -1,11 +1,14 @@
 # iteration_terminators
 
-No docstring provided.
-
 ### Function: iter_ceil
 
 ```python
-def iter_ceil_: np.ndarray, i: int, max_iters: int=10
+def iter_ceil(
+    _: np.ndarray,
+    i: int,
+    max_iters: int
+):
+    ...
 ```
 
 Simple iteration terminator that stops after a given number of iterations.

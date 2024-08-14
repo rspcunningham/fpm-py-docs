@@ -1,27 +1,33 @@
 # utils
 
-No docstring provided.
-
 ### Function: ft
 
 ```python
-def ftx: torch.Tensor
+def ft(x: torch.Tensor):
+    ...
 ```
 
-No docstring provided.
+
 
 ### Function: ift
 
 ```python
-def iftx: torch.Tensor
+def ift(x: torch.Tensor):
+    ...
 ```
 
-No docstring provided.
+
 
 ### Function: kvector_to_x_y
 
 ```python
-def kvector_to_x_yfourier_center: tuple[int, int], image_size: tuple[int, int], du: float, k_vector: torch.Tensor
+def kvector_to_x_y(
+    fourier_center: tuple[int, int],
+    image_size: tuple[int, int],
+    du: float,
+    k_vector: torch.Tensor
+):
+    ...
 ```
 
 Converts k-vector to x and y coordinates in the spatial domain.
@@ -36,7 +42,13 @@ tuple: The x and y coordinates in the spatial domain.
 ### Function: overlap_matrices
 
 ```python
-def overlap_matriceslarger: torch.Tensor, smaller: torch.Tensor, bottom: int, left: int
+def overlap_matrices(
+    larger: torch.Tensor,
+    smaller: torch.Tensor,
+    bottom: int,
+    left: int
+):
+    ...
 ```
 
 Adds a smaller matrix to a larger matrix at the specified position.
@@ -51,7 +63,8 @@ Tensor: The updated larger matrix.
 ### Function: circle_like
 
 ```python
-def circle_likearray: torch.Tensor
+def circle_like(array: torch.Tensor):
+    ...
 ```
 
 Creates a circular mask with the same shape as the input array.
