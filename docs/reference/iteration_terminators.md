@@ -1,9 +1,9 @@
-# iteration_terminators
+# fpm_py.*iteration_terminators*
 
 ### Function: iter_ceil
 
 ```python
-def iter_ceil(
+fpm_py.iteration_terminators.iter_ceil(
     _: np.ndarray,
     i: int,
     max_iters: int
@@ -12,8 +12,9 @@ def iter_ceil(
 ```
 
 Simple iteration terminator that stops after a given number of iterations.
-Args:
-    _: The object array. Not used in this simple terminator.
-    i: The current iteration number.
-    max_iters: The maximum number of iterations, default to 10.
+#### Args:
+- `_` (`None`): The object array. Not used in this simple terminator.
+- `i` (`None`): The current iteration number.
+- `max_iters` (`None`): The maximum number of iterations, default to 10.
+
 
