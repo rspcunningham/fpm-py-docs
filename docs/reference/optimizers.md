@@ -1,9 +1,9 @@
-# optimizers
+# fpm_py.*optimizers*
 
 ### Function: quasi_second_order
 
 ```python
-def quasi_second_order(
+fpm_py.optimizers.quasi_second_order(
     object: torch.Tensor,
     pupil: torch.Tensor,
     wave_fourier: torch.Tensor,
@@ -20,25 +20,26 @@ def quasi_second_order(
 
 Simple gradient descent optimizer with learning rate and regularization hyperparams for object and pupil.
 
-Args:
-    object (torch.Tensor): The object.
-    pupil (torch.Tensor): The pupil.
-    wave_fourier (torch.Tensor): The Fourier domain of the wave.
-    wave_fourier_new (torch.Tensor): The new Fourier domain of the wave.
-    x (int): Bottom row where pupil overlaps with object.
-    y (int): Leftmost column where pupil overlaps with object.
-    alpha_o (float): The learning rate for the object.
-    mu_o (float): The regularization parameter for the object.
-    alpha_p (float): The learning rate for the pupil.
-    mu_p (float): The regularization parameter for the pupil.
+#### Args:
+- `object` (`torch.Tensor`): The object.
+- `pupil` (`torch.Tensor`): The pupil.
+- `wave_fourier` (`torch.Tensor`): The Fourier domain of the wave.
+- `wave_fourier_new` (`torch.Tensor`): The new Fourier domain of the wave.
+- `x` (`int`): Bottom row where pupil overlaps with object.
+- `y` (`int`): Leftmost column where pupil overlaps with object.
+- `alpha_o` (`float`): The learning rate for the object.
+- `mu_o` (`float`): The regularization parameter for the object.
+- `alpha_p` (`float`): The learning rate for the pupil.
+- `mu_p` (`float`): The regularization parameter for the pupil.
 
-Returns:
-    tuple: The updated object and pupil.
+#### Returns:
+- `None`: The updated object and pupil.
+
 
 ### Function: tomas
 
 ```python
-def tomas(
+fpm_py.optimizers.tomas(
     object: torch.Tensor,
     pupil: torch.Tensor,
     wave_fourier: torch.Tensor,
@@ -53,14 +54,15 @@ def tomas(
 
 Tomas' optimizer with learning rate and regularization hyperparams for object and pupil.
 
-Args:
-    object (torch.Tensor): The object.
-    pupil (torch.Tensor): The pupil.
-    wave_fourier (torch.Tensor): The Fourier domain of the wave.
-    wave_fourier_new (torch.Tensor): The new Fourier domain of the wave.
-    x (int): Bottom row where pupil overlaps with object.
-    y (int): Leftmost column where pupil overlaps with object.
+#### Args:
+- `object` (`torch.Tensor`): The object.
+- `pupil` (`torch.Tensor`): The pupil.
+- `wave_fourier` (`torch.Tensor`): The Fourier domain of the wave.
+- `wave_fourier_new` (`torch.Tensor`): The new Fourier domain of the wave.
+- `x` (`int`): Bottom row where pupil overlaps with object.
+- `y` (`int`): Leftmost column where pupil overlaps with object.
 
-Returns:
-    tuple: The updated object and pupil.
+#### Returns:
+- `None`: The updated object and pupil.
+
 
