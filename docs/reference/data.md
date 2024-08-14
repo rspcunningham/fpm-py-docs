@@ -1,6 +1,6 @@
 # data
 
-This module contains the ImageCapture and ImageSeries classes, which are the base datatypes used to store and manipulate images and image series in the FPM framework. The ImageCapture class represents a single image capture, while the ImageSeries class represents a series of images captured with the same optical magnification and pixel size. The ImageSeries class also contains methods for saving and loading image series data to and from disk.
+This module contains the `ImageCapture` and `ImageSeries` classes, which are the base datatypes used to store and manipulate images and image series in the FPM framework. The `ImageCapture` class represents a single image capture, while the  ImageSeries  class represents a series of images captured with the same optical magnification and pixel size. The `ImageSeries` class also contains methods for saving and loading image series data to and from disk.
 
 ### Function: get_device
 
@@ -31,7 +31,7 @@ A single image capture with associated k-vector.
 ### Instance method: __post_init__
 
 ```python
-fpm_py.data.ImageCapture.__post_init__()
+fpm_py.data.ImageCapture.__post_init__(self)
 ```
 
 
@@ -59,7 +59,7 @@ A series of images captured with the same optical magnification and pixel size.
 ### Instance method: __post_init__
 
 ```python
-fpm_py.data.ImageSeries.__post_init__()
+fpm_py.data.ImageSeries.__post_init__(self)
 ```
 
 
@@ -82,7 +82,7 @@ Save the ImageSeries object to disk.
 ### Class method: load
 
 ```python
-fpm_py.data.ImageSeries().load()
+fpm_py.data.ImageSeries().load(path: str)
 ```
 
 Load an ImageSeries object from disk.
@@ -94,7 +94,7 @@ Load an ImageSeries object from disk.
 ### Class method: from_dict
 
 ```python
-fpm_py.data.ImageSeries().from_dict()
+fpm_py.data.ImageSeries().from_dict(path: str)
 ```
 
 Load an ImageSeries object saved as a dictionary.
@@ -109,7 +109,7 @@ Load an ImageSeries object saved as a dictionary.
 ### Instance method: to_dict
 
 ```python
-fpm_py.data.ImageSeries.to_dict()
+fpm_py.data.ImageSeries.to_dict(self)
 ```
 
 Convert the ImageSeries object to a dictionary.
