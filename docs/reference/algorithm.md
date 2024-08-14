@@ -5,7 +5,14 @@ The algorithm module contains the core algorithm for reconstructing an object fr
 ### Function: reconstruct
 
 ```python
-def reconstructimage_series: ImageSeries, output_scale_factor: int=None, pupil_0: torch.Tensor=None, iteration_terminator: TerminatorType=iter_ceil, optimizer: OptimizerType=tomas
+def reconstruct(
+    image_series: ImageSeries,
+    output_scale_factor: int,
+    pupil_0: torch.Tensor,
+    iteration_terminator: TerminatorType,
+    optimizer: OptimizerType
+):
+    ...
 ```
 
 Core algorithm. Reconstructs an object from a series of images.
