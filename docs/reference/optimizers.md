@@ -44,7 +44,7 @@ Simple gradient descent optimizer with learning rate and regularization hyperpar
 - `mu_p` (`float`): The regularization parameter for the pupil.
 
 #### Returns:
-- `None`: The updated object and pupil.
+- `tuple`: The updated object and pupil.
 
 
 ### Function: tomas
@@ -74,6 +74,6 @@ Tomas' optimizer with learning rate and regularization hyperparams for object an
 - `y` (`int`): Leftmost column where pupil overlaps with object.
 
 #### Returns:
-- `None`: The updated object and pupil.
+- `tuple`: The updated object and pupil.
 
 
