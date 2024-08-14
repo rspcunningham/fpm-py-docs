@@ -10,7 +10,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'fpm-py',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'The Fourier ptychography library for python',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -91,7 +91,6 @@ const config = {
         ],
       },
       footer: {
-        style: 'dark',
         copyright: `Copyright © ${new Date().getFullYear()} ParaSight Imaging Systems Inc.`,
       },
       prism: {
