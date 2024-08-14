@@ -31,7 +31,7 @@ A single image capture with associated k-vector.
 ### Instance method: __post_init__
 
 ```python
-fpm_py.data.ImageCapture.__post_init__(self)
+fpm_py.data.ImageCapture().__post_init__(self)
 ```
 
 
@@ -59,7 +59,7 @@ A series of images captured with the same optical magnification and pixel size.
 ### Instance method: __post_init__
 
 ```python
-fpm_py.data.ImageSeries.__post_init__(self)
+fpm_py.data.ImageSeries().__post_init__(self)
 ```
 
 
@@ -67,7 +67,7 @@ fpm_py.data.ImageSeries.__post_init__(self)
 ### Instance method: save
 
 ```python
-fpm_py.data.ImageSeries.save(
+fpm_py.data.ImageSeries().save(
     self,
     path: str
 )
@@ -82,7 +82,7 @@ Save the ImageSeries object to disk.
 ### Class method: load
 
 ```python
-fpm_py.data.ImageSeries().load(path: str)
+fpm_py.data.ImageSeries.load(path: str)
 ```
 
 Load an ImageSeries object from disk.
@@ -94,7 +94,7 @@ Load an ImageSeries object from disk.
 ### Class method: from_dict
 
 ```python
-fpm_py.data.ImageSeries().from_dict(path: str)
+fpm_py.data.ImageSeries.from_dict(path: str)
 ```
 
 Load an ImageSeries object saved as a dictionary.
@@ -109,7 +109,7 @@ Load an ImageSeries object saved as a dictionary.
 ### Instance method: to_dict
 
 ```python
-fpm_py.data.ImageSeries.to_dict(self)
+fpm_py.data.ImageSeries().to_dict(self)
 ```
 
 Convert the ImageSeries object to a dictionary.
