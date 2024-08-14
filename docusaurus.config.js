@@ -22,8 +22,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'ParaSight Imaging Systems', // Usually your GitHub org/user name.
-  projectName: 'fpm-py-docs', // Usually your repo name.
+  organizationName: 'rspcunningham', // Usually your GitHub org/user name.
+  projectName: 'rspcunningham.github.io', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
