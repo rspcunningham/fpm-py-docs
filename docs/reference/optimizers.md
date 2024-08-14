@@ -1,5 +1,21 @@
 # optimizers
 
+### Type Alias: DEBUG
+
+```python
+DEBUG = False
+```
+
+Could not extract docstring for this type alias.
+
+### Type Alias: OptimizerType
+
+```python
+OptimizerType = Callable[[torch.Tensor, torch.Tensor, torch.Tensor, torch.Tensor, int, int], tuple[torch.Tensor, torch.Tensor]]
+```
+
+Could not extract docstring for this type alias.
+
 ### Function: quasi_second_order
 
 ```python
