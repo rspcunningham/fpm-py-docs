@@ -1,5 +1,7 @@
 # utils
 
+Utility functions for the FPM reconstruction process.
+
 ### Function: ft
 
 ```python
@@ -7,7 +9,7 @@ fpm_py.utils.ft(x: torch.Tensor):
     ...
 ```
 
-
+Simple macro for 2D Fourier transform.
 
 ### Function: ift
 
@@ -16,7 +18,7 @@ fpm_py.utils.ift(x: torch.Tensor):
     ...
 ```
 
-
+Simple macro for 2D Inverse Fourier transform.
 
 ### Function: kvector_to_x_y
 
