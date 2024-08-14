@@ -1,11 +1,21 @@
 # optimizers
 
-No docstring provided.
-
 ### Function: quasi_second_order
 
 ```python
-def quasi_second_orderobject: torch.Tensor, pupil: torch.Tensor, wave_fourier: torch.Tensor, wave_fourier_new: torch.Tensor, x: int, y: int, alpha_o: float=1, mu_o: float=1, alpha_p: float=1, mu_p: float=1
+def quasi_second_order(
+    object: torch.Tensor,
+    pupil: torch.Tensor,
+    wave_fourier: torch.Tensor,
+    wave_fourier_new: torch.Tensor,
+    x: int,
+    y: int,
+    alpha_o: float,
+    mu_o: float,
+    alpha_p: float,
+    mu_p: float
+):
+    ...
 ```
 
 Simple gradient descent optimizer with learning rate and regularization hyperparams for object and pupil.
@@ -28,7 +38,17 @@ Returns:
 ### Function: tomas
 
 ```python
-def tomasobject: torch.Tensor, pupil: torch.Tensor, wave_fourier: torch.Tensor, wave_fourier_new: torch.Tensor, x: int, y: int, alpha: float=1, beta: float=1000
+def tomas(
+    object: torch.Tensor,
+    pupil: torch.Tensor,
+    wave_fourier: torch.Tensor,
+    wave_fourier_new: torch.Tensor,
+    x: int,
+    y: int,
+    alpha: float,
+    beta: float
+):
+    ...
 ```
 
 Tomas' optimizer with learning rate and regularization hyperparams for object and pupil.
