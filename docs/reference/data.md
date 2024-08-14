@@ -28,6 +28,14 @@ A single image capture with associated k-vector.
 - `ValueError`: If the image is not 2D or the k_vector is not 1x2
 
 
+#### Method: __post_init__
+
+```python
+fpm_py.data.ImageCapture.__post_init__()
+```
+
+
+
 ## Class: ImageSeries
 
 ```python
@@ -47,4 +55,62 @@ A series of images captured with the same optical magnification and pixel size.
 - `ValueError`: If the images in the stack do not have the same shape
 - `ValueError`: If effective_magnification is not provided and both optical_magnification and pixel_size are not provided
 
+
+#### Method: __post_init__
+
+```python
+fpm_py.data.ImageSeries.__post_init__()
+```
+
+
+
+#### Method: save
+
+```python
+fpm_py.data.ImageSeries.save(
+    self,
+    path: str
+)
+```
+
+Save the ImageSeries object to disk.
+
+#### Args:
+- `path` (`str`): The path to save the object to
+
+
+#### Method: load
+
+```python
+fpm_py.data.ImageSeries.load()
+```
+
+Load an ImageSeries object from disk.
+
+#### Args:
+- `path` (`str`): The path to load the object from
+
+
+#### Method: from_dict
+
+```python
+fpm_py.data.ImageSeries.from_dict()
+```
+
+Load an ImageSeries object saved as a dictionary.
+
+#### Args:
+- `path` (`str`): The path to load the object from
+
+#### Returns:
+- `None`: The loaded ImageSeries object
+
+
+#### Method: to_dict
+
+```python
+fpm_py.data.ImageSeries.to_dict()
+```
+
+Convert the ImageSeries object to a dictionary.
 
