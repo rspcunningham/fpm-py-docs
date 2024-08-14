@@ -33,11 +33,13 @@ fpm_py.utils.kvector_to_x_y(
 ```
 
 Converts k-vector to x and y coordinates in the spatial domain.
+
 #### Args:
 - `fourier_center` (`Tensor`): The center of the Fourier domain.
 - `image_size` (`Tensor`): The size of the image.
 - `du` (`Tensor`): The effective magnification.
 - `k_vector` (`Tensor`): The k-vector.
+
 #### Returns:
 - `None`: The x and y coordinates in the spatial domain.
 
