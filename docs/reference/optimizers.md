@@ -6,7 +6,7 @@
 DEBUG = False
 ```
 
-Could not extract docstring for this type alias.
+'Assign' can't have docstrings
 
 ### Type Alias: OptimizerType
 
@@ -14,7 +14,7 @@ Could not extract docstring for this type alias.
 OptimizerType = Callable[[torch.Tensor, torch.Tensor, torch.Tensor, torch.Tensor, int, int], tuple[torch.Tensor, torch.Tensor]]
 ```
 
-Could not extract docstring for this type alias.
+'Assign' can't have docstrings
 
 ### Function: quasi_second_order
 
