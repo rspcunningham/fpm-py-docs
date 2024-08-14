@@ -25,6 +25,6 @@ Core algorithm. Reconstructs an object from a series of images.
 - `optimizer` (`OptimizerType`): The optimizer function that updates the object and pupil. If not provided, the default is the tomas optimizer.
 
 #### Returns:
-    torch.Tensor: The reconstructed object in the spatial domain.
+- `torch.Tensor`: The reconstructed object in the spatial domain.
 
 
