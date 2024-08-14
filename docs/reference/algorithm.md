@@ -1,4 +1,4 @@
-# fpm_py.*algorithm*
+# algorithm
 
 ### Function: reconstruct
 
