@@ -1,5 +1,13 @@
 # iteration_terminators
 
+### Type Alias: TerminatorType
+
+```python
+TerminatorType = Callable[[torch.Tensor, int], bool]
+```
+
+Could not extract docstring for this type alias.
+
 ### Function: iter_ceil
 
 ```python
