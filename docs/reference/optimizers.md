@@ -1,4 +1,4 @@
-# fpm_py.*optimizers*
+# optimizers
 
 ### Function: quasi_second_order
 
