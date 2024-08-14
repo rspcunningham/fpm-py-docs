@@ -6,7 +6,7 @@
 TerminatorType = Callable[[torch.Tensor, int], bool]
 ```
 
-Could not extract docstring for this type alias.
+'Assign' can't have docstrings
 
 ### Function: iter_ceil
 
