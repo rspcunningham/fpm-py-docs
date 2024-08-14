@@ -73,7 +73,7 @@ const config = {
           },
           {
             type: 'doc',
-            docId: 'guide/how-to-use',
+            docId: 'guide/what_is',
             position: 'left',
             label: 'User Guide',
           },
@@ -82,6 +82,11 @@ const config = {
             docId: 'reference/intro',
             position: 'left',
             label: 'API Reference',
+          },
+          {
+            href: 'https://github.com/rspcunningham/fpm-py/',
+            label: 'GitHub',
+            position: 'right',
           },
           {
             href: 'https://parasight.ca',

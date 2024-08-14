@@ -74,27 +74,6 @@ export default function Home() {
         </section>
 
         <section>
-            <h2>Quick Start</h2>
-            <pre>
-              <code>
-                !pip install fpm-py <br /><br />
-
-                import fpm_py as fpm<br />
-                # Basic usage example here
-              </code>
-            </pre>
-        </section>
-
-        <section>
-            <h2>Resources</h2>
-            <ul>
-                <li><a href="#">Full Documentation</a></li>
-                <li><a href="#">GitHub Repository</a></li>
-                <li><a href="#">Research Paper</a></li>
-            </ul>
-        </section>
-
-        <section>
             <h2>Join the Mission</h2>
             <p>Help us make high-quality microscopy accessible worldwide. Start using or contributing to fpm-py today!</p>
         </section>
