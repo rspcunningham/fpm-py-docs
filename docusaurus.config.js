@@ -61,7 +61,7 @@ const config = {
       navbar: {
         title: 'My Site',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'fpm-py',
           src: 'img/logo.svg',
         },
         items: [
