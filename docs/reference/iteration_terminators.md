@@ -4,7 +4,7 @@
 
 ```python
 fpm_py.iteration_terminators.iter_ceil(
-    _: np.ndarray,
+    object: torch.Tensor,
     i: int,
     max_iters: int
 ):
