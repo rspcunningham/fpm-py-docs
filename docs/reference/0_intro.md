@@ -1,4 +1,2 @@
-# __init__
-
-Fourier ptychography package for Python.
+# fpm_py.*__init__*
 
