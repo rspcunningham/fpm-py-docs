@@ -64,37 +64,10 @@ fpm_py.data.ImageSeries().__post_init__(self)
 
 
 
-### Instance method: save
-
-```python
-fpm_py.data.ImageSeries().save(
-    self,
-    path: str
-)
-```
-
-Save the ImageSeries object to disk.
-
-#### Args:
-- `path` (`str`): The path to save the object to
-
-
-### Class method: load
-
-```python
-fpm_py.data.ImageSeries.load(path: str)
-```
-
-Load an ImageSeries object from disk.
-
-#### Args:
-- `path` (`str`): The path to load the object from
-
-
 ### Class method: from_dict
 
 ```python
-fpm_py.data.ImageSeries.from_dict(path: str)
+fpm_py.data.ImageSeries.from_dict(data: dict)
 ```
 
 Load an ImageSeries object saved as a dictionary.
@@ -106,6 +79,14 @@ Load an ImageSeries object saved as a dictionary.
 - `ImageSeries`: The loaded ImageSeries object
 
 
+### Class method: load
+
+```python
+fpm_py.data.ImageSeries.load(path: str)
+```
+
+
+
 ### Instance method: to_dict
 
 ```python
@@ -113,4 +94,15 @@ fpm_py.data.ImageSeries().to_dict(self)
 ```
 
 Convert the ImageSeries object to a dictionary.
+
+### Instance method: save
+
+```python
+fpm_py.data.ImageSeries().save(
+    self,
+    path
+)
+```
+
+
 
