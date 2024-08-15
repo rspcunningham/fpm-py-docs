@@ -22,9 +22,12 @@
   justify-content: center;
 }
 
-main {
-  padding: 2rem 10rem;
-}
+.landing {
+  /*padding: 2rem 10rem;*/
+  max-width: 100rem;
+  margin: 0 auto;
+  padding: 2rem;
+} 
 
 h2 {
   padding-top: 2rem;

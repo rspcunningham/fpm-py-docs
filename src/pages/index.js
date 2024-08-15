@@ -34,8 +34,8 @@ export default function Home() {
       title='fpm_py documentation'
       description="The Fourier ptychography library for python.">
       <HomepageHeader />
-      <main>
-      <section>
+      <main className={styles.landing}>
+        <section>
             <h2>Empowering Diagnostics in Resource-Limited Settings</h2>
             <p>Our ultimate goal is to revolutionize healthcare accessibility:</p>
             <ul>
