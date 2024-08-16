@@ -21,6 +21,16 @@ function HomepageHeader() {
             to="/docs/intro">
             Get Started
           </Link>
+          <Link
+            className="button button--secondary button--lg"
+            to="https://chatgpt.com/g/g-EnkK3hMEI-fpm-gpt">
+            Ask fpm-gpt for Help
+          </Link>
+          <Link
+            className="button button--secondary button--lg"
+            to="https://github.com/rspcunningham/fpm-py-docs/issues/new">
+            Submit an Issue
+          </Link>
         </div>
       </div>
     </header>
