@@ -22,6 +22,10 @@
   justify-content: center;
 }
 
+.buttons > * {
+  margin: 0.5rem;
+}
+
 .landing {
   /*padding: 2rem 10rem;*/
   max-width: 100rem;
